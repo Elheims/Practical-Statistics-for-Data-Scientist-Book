@@ -17,9 +17,6 @@ Each chapter has its own Jupyter notebook in this repository containing:
 | 2 | [ch02_data_and_sampling_distributions](ch02_data_and_sampling_distributions.ipynb) | Data and Sampling Distributions |
 | 3 | [ch03_statistical_experiments_and_significance_testing](ch03_statistical_experiments_and_significance_testing.ipynb) | Statistical Experiments and Significance Testing |
 | 4 | [ch04_regression_and_prediction](ch04_regression_and_prediction.ipynb) | Regression and Prediction |
-| 5 | [ch05_classification](ch05_classification.ipynb) | Classification |
-| 6 | [ch06_statistical_machine_learning](ch06_statistical_machine_learning.ipynb) | Statistical Machine Learning |
-| 7 | [ch07_unsupervised_learning](ch07_unsupervised_learning.ipynb) | Unsupervised Learning |
 
 ## Chapter overviews
 
@@ -35,14 +32,6 @@ How to design experiments (A/B tests) and decide whether an observed difference 
 ### Chapter 4 - Regression and Prediction
 Predicting a numeric outcome. Starts with **simple linear regression** (least squares), then **multiple regression** (RMSE, RSE, R², t-statistics, model selection with AIC/stepwise), prediction and confidence/prediction intervals, **factor variables** (dummy coding, many-level factors), interpreting coefficients (correlated predictors, multicollinearity, confounders, **interactions**), **regression diagnostics** (outliers, leverage, Cook's distance, heteroskedasticity, partial residual plots), and non-linear models: **polynomial, spline regression and GAMs**.
 
-### Chapter 5 - Classification
-Predicting a categorical outcome using probabilities and a cutoff. Methods: **naive Bayes**, **discriminant analysis (LDA)** and **logistic regression** (log-odds, odds ratios, GLMs). Evaluation goes beyond accuracy: **confusion matrix, precision, recall, specificity, ROC/AUC and lift**. The chapter closes with **strategies for imbalanced data**: undersampling, oversampling, weighting, SMOTE and cost-based cutoffs.
-
-### Chapter 6 - Statistical Machine Learning
-Flexible, data-driven prediction methods: **K-nearest neighbours**, **decision trees** (recursive partitioning, Gini/entropy, pruning), **bagging and random forests** (OOB error, variable importance) and **boosting / XGBoost** (learning rate, regularisation, overfitting), plus **hyperparameter tuning with cross-validation**.
-
-### Chapter 7 - Unsupervised Learning
-Finding structure without a labelled outcome: **Principal Components Analysis**, **K-means**, **hierarchical clustering** (linkage, dendrograms), **model-based clustering** with Gaussian mixtures (EM, BIC), and the practical issues of **scaling** and **categorical variables** (Gower's distance).
 
 ## How to run
 

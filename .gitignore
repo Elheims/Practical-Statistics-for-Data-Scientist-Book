@@ -1,8 +1,0 @@
-# Only the notebooks, README.md and requirements.txt are uploaded.
-# Everything else is ignored:
-tools/
-data/
-helpers.py
-.ipynb_checkpoints/
-__pycache__/
-.venv/

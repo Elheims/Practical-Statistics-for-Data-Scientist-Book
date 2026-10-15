@@ -1,0 +1,20 @@
+# Only the notebooks (ch*.ipynb), README.md, requirements.txt,
+# .gitignore and .gitattributes are uploaded. Everything below is ignored.
+
+# Local build tooling (notebook sources + build script)
+tools/
+
+# Datasets are downloaded automatically by the notebooks
+data/
+
+# Jupyter / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
